@@ -1,10 +1,9 @@
 @font-face { /* integration écriture raleway */
-    font-family: raleway;
+    font-family: raleway, serif;
     src: url(raleway-variablefont_wght.ttf);
-    src: url('');
 }
 
-h3 /* utilisation de la police raleway sur les titre h3*/
+body /* utilisation de la police raleway sur les titre h3*/
 {
     font-family: raleway;
 }
