@@ -1,75 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3689467a52.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
 </head>
+
 <body>
     <!-- corp -->
-    <div class="containers"> 
+    <div class="containers">
         <header>
             <!-- navigation -->
-            <nav></nav>
+            <nav>
+                <a class="logo" href="#">
+                    <img src="images/logo/Reservia.svg" alt="logo reservia">
+                </a>
+                <ul>
+                    <li><a href="#accomodation" class="nav-link">Hébergements</a></li>
+                    <li><a href="#activity" class="nav-link">Activités</a></li>
+                    <li><a href="#" class="nav-link">S'inscrire</a></li>
+
+
+                </ul>
+            </nav>
             <!-- parti recherche et autour -->
-            <section></section>
+            <section>
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p class="sous-titre">En plein centre ville ou en pleine nature</p>
+                <form class="search-form">
+                
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="text" placeholder="Marseille, France">
+                    <button type="button" class="search-button">Rechercher</button>
+                </form>
+                <div class="filters">
+
+
+                </div>
+            </section>
         </header>
         <main>
             <!-- accomodation section -->
             <div class="main">
                 <!-- hebergement a marseille -->
-                <section class="accomodation"></section>
+                <section id="accomodation" class="accomodation"></section>
                 <!-- les plus populaires -->
                 <section class="popularity"></section>
             </div>
             <!-- activity section -->
-            <section class="activity">
+            <section id="activity" class="activity">
                 <h1>Activités à Marseille</h1>
                 <p>
-                  <a href="#"><img src="/images/activites/4_small/port.jpg" alt="Vieux port" /></a>
-                  <a href="#">Fort de Pomègues</a>
-                  <a href="#">Îles du Frioul</a>
-                  <a href="#">Parc National des Calanques</a>
-                  <a href="#">Notre-Dame-de-la-Garde</a>
-                  <a href="#">Parc Longchamp</a>
+                    <a href="#"><img src="/images/activites/4_small/port.jpg" alt="Vieux port" /></a>
+                    <a href="#">Fort de Pomègues</a>
+                    <a href="#">Îles du Frioul</a>
+                    <a href="#">Parc National des Calanques</a>
+                    <a href="#">Notre-Dame-de-la-Garde</a>
+                    <a href="#">Parc Longchamp</a>
                 </p>
-                
+
             </section>
         </main>
     </div>
     <!-- footer -->
     <footer>
         <div class="titre_footer">
-
-             <ul>
-                 <li><a href="#" target="_blank">A propos</a></li><br/>
-                 <li><a href="#" target="_blank">Fonctionnement du site</a></li><br/>
-                 <li><a href="#" target="_blank">Conditions générales de vente</a></li><br/>
-                 <li><a href="#" target="_blank">Données et confidentialité</a></li>
-             </ul>
+            <h3>A propos </h3>
+            <ul>
+                <li><a href="#" target="_blank">Fonctionnement du site</a></li><br />
+                <li><a href="#" target="_blank">Conditions générales de vente</a></li><br />
+                <li><a href="#" target="_blank">Données et confidentialité</a></li>
+            </ul>
         </div>
 
         <div class="titre_footer">
-            
-              <ul>
-                <li><a href="#" target="_blank">Nos hébergements</a></li><br/>
-                <li><a href="#" target="_blank">Charte qualité</a></li><br/>
+            <h3>Nos hébergements</h3>
+            <ul>
+                <li><a href="#" target="_blank">Charte qualité</a></li><br />
                 <li><a href="#" target="_blank">Soumettre votre hôtel</a></li>
-              </ul>
+            </ul>
         </div>
 
         <div class="titre_footer">
-            
-              <ul>
-               <li><a href="#" target="_blank">Assistance</a></li><br/>
-               <li><a href="#" target="_blank">Centre d'aide</a></li><br/>
-               <li><a href="#" target="_blank">Nous contacter</a></li>
-              </ul>
+            <h3>Assistance</h3>
+            <ul>
+                <li><a href="#" target="_blank">Centre d'aide</a></li><br />
+                <li><a href="#" target="_blank">Nous contacter</a></li>
+            </ul>
         </div>
-        
-    
+
+
     </footer>
 
 </body>
+
 </html>
