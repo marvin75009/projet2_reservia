@@ -8,6 +8,13 @@ body /* utilisation de la police raleway sur les titre h3*/
 a {
     text-decoration: none;
     color: black;
+    font-size: 1.6rem;
+}
+section p {
+    font-size: 1.4rem;
+}
+h3 {
+    font-size: 1.6rem;
 }
 ul {
     list-style: none;
@@ -167,3 +174,77 @@ nav ul {
 .info p {
     padding-left: 1rem;
 }
+/* main */
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* hebergement a marseille */
+.accomodation {
+    flex-basis: 65%;
+    background: #f2f2f2;
+    border-radius: 1.5rem;  
+}
+.accomodation h2 {
+    font-size: 2rem;
+    padding: 3rem 2rem 2rem 3rem;
+  }
+  
+.accomodation-cards {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr );
+    grid-template-rows: auto;
+    grid-gap: 30px;
+  }
+.accomodation-cards a {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    box-shadow: 0px 0px 10px #a1a1a1;
+    background: white;
+    border-radius: 1.5rem;
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
+  }
+.accomodation-card-item img {
+    height: 11.4rem;
+    object-fit: cover;
+    border-radius: 1.5rem 1.5rem 0 0;
+  }
+  
+.accomodation-card-item-sub-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 90px;
+    padding: 10px 0 0 15px;
+  }
+
+.accomodation-card-item .note {
+    color:#b1b1b1;
+  }
+  
+.accomodation-card-item .fa-star--activate {
+    color: #0065fc;
+  }
+
+/* les plus populaires */
+
+.popularity {
+    flex-basis: 32%;
+    background: #f2f2f2;
+    border-radius: 1.5rem;
+}
+
+.show-more {
+    padding: 4rem 2rem 4rem 3.5rem;
+    border: none;
+    background: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  
